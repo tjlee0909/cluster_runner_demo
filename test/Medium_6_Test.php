@@ -1,10 +1,10 @@
 <?php
 
-class Nineteen_Test extends PHPUnit_Framework_TestCase
+class Medium_6_Test extends PHPUnit_Framework_TestCase
 {
     public function test_only_test()
     {
-        sleep(19);
+        sleep(5);
         $this->assertTrue(true);
     }
 }
