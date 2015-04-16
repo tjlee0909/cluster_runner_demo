@@ -2,7 +2,7 @@ PHPUnit:
     max_executors: 20
 
     commands:
-        - phpunit $TESTPATH
+        - phpunit --log-junit $ARTIFACT_DIR/result.xml $TESTPATH
 
     atomizers:
         - TESTPATH: find $PROJECT_DIR/test -name "*Test.php"
