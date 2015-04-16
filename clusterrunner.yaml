@@ -6,4 +6,3 @@ PHPUnit:
 
     atomizers:
         - TESTPATH: find $PROJECT_DIR/test -name "*Test.php"
-
