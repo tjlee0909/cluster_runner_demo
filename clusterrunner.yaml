@@ -1,4 +1,4 @@
-PHPUnit:
+PHPUnitTests:
     max_executors: 20
 
     commands:
