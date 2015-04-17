@@ -5,4 +5,4 @@ PHPUnitTests:
         - phpunit --log-junit $ARTIFACT_DIR/result.xml $TESTPATH
 
     atomizers:
-        - TESTPATH: find $PROJECT_DIR/test -name "*Test.php"
+        - TESTPATH: find $PROJECT_DIR/test -name "*Test.php" | sort
